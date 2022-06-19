@@ -1,0 +1,7 @@
+Anggota Kelompok :
+Alif Adwitiya Pratama - 1301190465
+Aliza Rizka Firdani - 1301190297
+Muhammad Fikry Saputra - 1301194300
+
+Link Domain Heroku Kelompok 4 :
+https://deploy-kelompok4.herokuapp.com/app

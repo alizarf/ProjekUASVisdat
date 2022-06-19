@@ -6,7 +6,7 @@ from bokeh.io import curdoc
 
 # Preprocess
 df = pd.read_csv(
-    './data/covid_19_indonesia_time_series_all.csv', parse_dates=['Date'])
+    './covid_19_indonesia_time_series_all.csv', parse_dates=['Date'])
 pd.to_datetime(df['Date'])
 df = df[['Date', 'Location', 'New Cases', 'New Deaths', 'New Recovered']].rename(
     columns={'New Cases': 'NewCases', 'New Deaths': 'NewDeaths', 'New Recovered': 'NewRecovered'})
